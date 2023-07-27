@@ -24,10 +24,6 @@ body {
     align-items: center;
 }
 
-#projects {
-
-}
-
 /* Code for Loading Spinner */
 .loader {
     color: #b1dae7;
@@ -348,6 +344,19 @@ header table {
     width: 30%;
 }
 
+#snaps {
+    width: 92vw;
+    padding: 6vh 4vw;
+    font-weight: bold;
+    color: #234567;
+}
+
+#snaps h1 {
+    padding: 5px 0px;
+    border-bottom: 4px solid #b1dae7;
+    width: 13%;
+}
+
 #footer {
     width: 100%;
     padding:8vh 0px 0px;
@@ -527,6 +536,10 @@ button:focus {
     }
 
     #bio h1 {
+        width: 25%;
+    }
+
+    #snaps h1 {
         width: 25%;
     }
 

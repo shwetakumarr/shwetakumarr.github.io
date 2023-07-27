@@ -1,9 +1,5 @@
 let width = $(window).width();
 window.onscroll = function () {
-    AOS.init({
-        easing: 'ease-in-quad',
-    });
-
     if ((width >= 1000)) {
         if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
             $("#header").css("background", "rgba(35, 68, 102, 0.5)");
